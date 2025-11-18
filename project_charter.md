@@ -58,42 +58,52 @@ A website designed for a faculty delivering courses at College setting will be u
 3. Course information pages accessible for students
 4. Course calendars is now accessible for students
 
-## 5. Budget
 
-For our budget we are assuming that our sprints are two weeks long. Hence, during the cosurse of our 16 weeks project, we will have eight sprints.
+### 5. Budget
 
-### Personnel
+For our budget, we assume that our sprints are two weeks long. Over a 16-week project, this results in eight sprints.
 
-| **Role** | **Daily Rate**  | **Allocation** | **Sprint Burn Rate** |
-| --------------- | --------------- | -------------- | -------------------- |
-|  Product Owner |  600 |  50% | 3,000 |
-|  Scrum Master |  500 |  50% | 2,500 |
-|  Sr. Developer |  500 |  50% | 2,500 |
-|  Jr. Developer |  400 |  50% | 4,000 |
-| Total | | | 12,000 |
+#### Personnel
 
-With eight sprints, our total cost for personnel is therefore **96,000 CADs**.
+| Role                                   | Daily Rate (CAD) | Allocation | Sprint Burn Rate (CAD) |
+|-----------------------------------------|------------------|------------|------------------------|
+| Product Owner                          | 600              | 50%        | 3,000                  |
+| Scrum Master                           | 500              | 50%        | 2,500                  |
+| Backend Developer (Node.js, Database)  | 450              | 100%       | 4,500                  |
+| Frontend Developer (React)             | 450              | 100%       | 4,500                  |
+| QA / Tester                            | 350              | 50%        | 1,750                  |
+| DevOps (Hosting, CI/CD, Security)      | 400              | 50%        | 2,000                  |
+| **Total**                              |                  |            | **18,250**             |
 
-### Hardware
-| **Item** | **Qtd**  | **Price** | **Total** |
-| --------------- | --------------- | -------------- | -------------------- |
-|  Thinkpad P14 |  2 | 1,200 | 2,400 |
+> **Total Personnel Cost:**  
+> 8 sprints × 18,250 CAD = **146,000 CAD**
 
-Our total hardware cost is therefore **2,400 CADs**.
+#### Hardware
 
-### Subscriptions
-| **Item** | **Qtd**  | **Monthly fee** | **Months** |   **Total**
-| --------------- | --------------- | -------------- | ------------ | ----------- |
-|  Office 365 |  2 | 300 | 4 | 2,400 |
-|  Digital Ocean (Hosting) |  1 | 10 | 4 | 40 |
-|  Total |   |  |  | 2,440 |
+| Item                   | Quantity | Price per Unit (CAD) | Total (CAD) |
+|------------------------|----------|----------------------|-------------|
+| Developer Laptops      | 3        | 1,200                | 3,600       |
+| Local Server Test VM   | 1        | 800                  | 800         |
+| **Total Hardware Cost**|          |                      | **4,400**   |
 
-Our total subscription cost is therefore **2,440 CADs**.
+#### Subscriptions and Hosting
 
-### Overall cost
+| Item                                | Quantity | Monthly Fee (CAD) | Months | Total (CAD) |
+|-------------------------------------|----------|-------------------|--------|-------------|
+| Domain + SSL certificate            | 1        | 15                | 4      | 60          |
+| DigitalOcean Droplet (Hosting & DB) | 1        | 20                | 4      | 80          |
+| Office 365 / Collaboration Tools    | 4        | 30                | 4      | 480         |
+| GitHub Pro (Team Repo Access)       | 1        | 50                | 4      | 200         |
+| Payment Integration API access      | 1        | 30                | 4      | 120         |
+| **Total Subscription Cost**         |          |                   |        | **940**     |
 
-Hence, our total cost is of **96,000 + 2,400 + 2,440 = 100,840 CADs**. With a contigency of 10%, the overall cost of the projct would be of: **110,924 CADs.**
+#### Overall Project Cost
 
-
-
-
+| Item                  | Total (CAD)     |
+|-----------------------|-----------------|
+| Personnel             | 146,000         |
+| Hardware              | 4,400           |
+| Subscriptions         | 940             |
+| **Subtotal**          | **151,340**     |
+| Contingency (10%)     | 15,134          |
+| **Total Project Cost**| **166,474**     |
